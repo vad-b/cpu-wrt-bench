@@ -17,10 +17,12 @@ sh <(wget -O - https://raw.githubusercontent.com/itdoginfo/cpu-wrt-bench/refs/he
 ## Device Results
 | Device                  | CPU             | OpenWrt Version |  CPU Threads | int64 (1 Thread) | matrixprod (1 Thread) | int64 (ALL Threads) | matrixprod (ALL Threads) |
 |-------------------------|-----------------|-----------------|--------------|----------------|---------------------|-------------------|------------------------|
+| Xiaomi MiWiFi Nano      | MediaTek MT7628N | OpenWrt 24.10.4 | 1            | 21.97          | 4.58                | 21.90             | 4.59 
 | Beeline SmartBox TURBO+ | MediaTek MT7621A | OpenWrt 24.10.1 | 4           | 35.77          | 7.88                | 92.83             | 17.94                  |
 | FriendlyElec NanoPi R2S | Rockchip RK3328 | OpenWrt 24.10.1 | 4            | 286.60         | 10.80               | 1144.74           | 35.30                  |
 | netis NX31              | MediaTek MT7981B | OpenWrt 24.10.1 | 2            | 292.93         | 10.81               | 579.10            | 20.03                  |
 | Xiaomi Mi Router AX3000T | MediaTek MT7981BA  | OpenWrt 24.10.1 | 2        | 291.67         | 10.89               | 581.33            | 19.86                  |
+| Cudy TR3000              | MediaTek MT7981BA | OpenWrt 24.10.4 | 2         | 292.57         | 11.03               | 581.96            | 20.43                  |
 | FriendlyElec NanoPi R3S | Rockchip RK3566 | OpenWrt 24.10.2 | 4            | 419.93         | 17.65               | 1652.03           | 51.48                    |
 | Xiaomi Redmi Router AX6000 | MediaTek MT7986A | OpenWrt 24.10.1 | 4        | 451.73         | 18.78               | 1805.96           | 55.30                  |
 
